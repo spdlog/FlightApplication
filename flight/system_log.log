@@ -1,0 +1,11 @@
+2021-01-04 01:40:07 INFO    Flight Application Has Started 
+2021-01-04 01:40:17 INFO    GET Request: CheckCheckIn for DestinationID = 12 and BaggageID = 11 
+2021-01-04 01:40:17 INFO    CheckIn Failed for DestinationID = 12 and BaggageID = 11 
+2021-01-04 01:40:25 INFO    GET Request: CheckCheckIn for DestinationID = 12 and BaggageID = 11 
+2021-01-04 01:40:25 INFO    CheckIn Failed for DestinationID = 12 and BaggageID = 11 
+2021-01-04 01:40:33 INFO    GET Request: CheckCoupon for CouponID = 1 and Price = 100 
+2021-01-04 01:40:33 INFO    Coupon ID = 1 Got 10.00 Discount  
+2021-01-04 01:40:33 INFO    After Checking Coupon : {Price: 10.00, response:'Coupon discount = 0.10 '} 
+2021-01-04 01:40:42 INFO    GET Request: CheckCoupon for CouponID = 10 and Price = 100 
+2021-01-04 01:40:42 INFO    Coupon ID = %d does not exist 
+2021-01-04 01:40:42 INFO    After Checking Coupon : {Price: 100, response:'Coupon does not exist'} 
