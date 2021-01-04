@@ -1,4 +1,6 @@
 package com.example.flight;
+import com.example.flight.model.*;
+
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -52,6 +54,7 @@ public class AppData {
             return Baggages.containsKey(baggageID) && Baggages.get(baggageID).isCheckedIn() && destination.getID() == destinationID;
         }
         catch (Exception e){
+            logger.log(Level.SEVERE, String.format("Exception : %s", e));
             return false;
         }
     }

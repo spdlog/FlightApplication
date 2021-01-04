@@ -1,4 +1,5 @@
 package com.example.flight;
+import com.example.flight.logger.NewLogger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.IOException;
