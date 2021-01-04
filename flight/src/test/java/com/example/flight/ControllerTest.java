@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(TicketController.class)
-class TicketControllerTest {
+class ControllerTest {
     @Autowired
     private MockMvc mvc;
     public AppData data = new AppData();
